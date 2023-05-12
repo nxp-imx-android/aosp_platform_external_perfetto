@@ -33,6 +33,7 @@
 #include "test/gtest_and_gmock.h"
 
 #include "protos/perfetto/trace/ftrace/dpu.gen.h"
+#include "protos/perfetto/trace/ftrace/f2fs.gen.h"
 #include "protos/perfetto/trace/ftrace/ftrace.gen.h"
 #include "protos/perfetto/trace/ftrace/ftrace_event.gen.h"
 #include "protos/perfetto/trace/ftrace/ftrace_event.pbzero.h"
@@ -57,6 +58,7 @@ using testing::Eq;
 using testing::NiceMock;
 using testing::Pair;
 using testing::Return;
+using testing::SizeIs;
 using testing::StartsWith;
 
 namespace perfetto {
